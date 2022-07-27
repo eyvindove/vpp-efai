@@ -1,0 +1,302 @@
+@import './variable.scss';
+
+.download {
+  padding: 16px 0;
+  background-color: #efefef;
+}
+
+.download-button {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #efefef;
+}
+
+.section--2col {
+  margin: 0;
+  width: 55%;
+}
+
+.page {
+  position: relative;
+  margin: 8px auto;
+  padding: 10mm 16mm;
+  width: 210mm;
+  height: 297mm;
+  background-color: $color-white;
+}
+
+.page-with-background {
+  background-color: transparent;
+}
+
+.page__bg {
+  z-index: 0;
+  position: absolute;
+  top: 59px;
+  left: 50%;
+  margin: 0 auto;
+  width: 210mm;
+  height: 297mm;
+  transform: translateX(-50%);
+}
+
+.page__title {
+  color: $color-white;
+  margin-bottom: 12px;
+  padding: 12px;
+  width: 260px;
+  text-align: center;
+  letter-spacing: .6rem;
+  background-color: $color-primary;
+}
+
+.section__subject,
+.section__subject-eng {
+  margin-left: 16px;
+  color: $color-primary;
+}
+
+.section__subject {
+  position: relative;
+  font-size: $font-medium;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -16px;
+    width: 12px;
+    height: 12px;
+    background-color: $color-primary;
+    border-radius: 50%;
+  }
+}
+
+.section__subject-eng {
+  margin-bottom: 8px;
+  font-size: $font-normal;
+}
+
+.section__list {
+  font-size: $font-xs;
+}
+
+.section__list-item__icon {
+  float: left;
+  margin-top: 6px;
+  width: 12px;
+  height: 12px;
+}
+
+.section__list-item__text {
+  margin-left: 16px;
+  line-height: 24px;
+}
+
+.percentage,
+.percentage__image,
+.percentage__name {
+  width: 75%;
+}
+
+.percentage {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.percentage__name {
+  margin: 16px 0;
+  font-size: $font-large;
+}
+
+.percentage--gene,
+.percentage__name--gene {
+  color: $color-primary;
+}
+
+.percentage--env,
+.percentage__name--env {
+
+  float: right;
+  color: $color-secondary;
+}
+
+.percentage__annotation {
+  margin-top: 32px;
+  width: 22%;
+  color: $color-gray;
+  font-size: $font-xs;
+}
+
+.risk__image {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.risk__image__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.risk-block {
+  position: absolute;
+  top: 8mm;
+  right: 10mm;
+  width: 40%;
+}
+
+.risk-table {
+  position: absolute;
+  top: 392px;
+  right: 17mm;
+  width: 35%;
+  color: $color-white;
+  font-size: $font-xs;
+  line-height: 18px;
+
+  td {
+    width: 100px;
+    text-align: center;
+    border: 1px solid transparent;
+  }
+
+  .tr-higher {
+    height: 27px;
+  }
+}
+
+.risk-explain-table {
+  margin-top: 8px;
+  font-size: $font-xs;
+  text-align: center;
+  border-spacing: 0;
+  border: 1px solid $color-primary;
+
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid $color-primary;
+  }
+
+
+  th {
+    padding: 8px 0;
+    color: $color-primary;
+  }
+
+  .col1 {
+    width: 100px;
+  }
+
+  .col2 {
+    width: 300px;
+    text-align: left;
+  }
+
+  .col3,
+  .col4,
+  .col5 {
+    width: 80px;
+    font-weight: bold;
+  }
+
+  .col6 {
+    width: 100px;
+  }
+}
+
+.risk-analysis-table {
+  margin-top: 8px;
+  font-size: $font-xs;
+  text-align: center;
+  border-spacing: 0;
+  border: 1px solid $color-primary;
+
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid $color-primary;
+  }
+
+  th {
+    color: $color-primary;
+  }
+
+  .col1 {
+    width: 100px;
+  }
+
+  .col2 {
+    width: 80px;
+  }
+
+  .col3 {
+    width: 120px;
+  }
+
+  .col4 {
+    text-align: left;
+  }
+
+  .col5 {
+    width: 60px;
+  }
+}
+
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-none {
+  float: none;
+}
+
+.bg-gray {
+  background-color: $color-gray;
+}
+
+.section-padding {
+  padding: 8px;
+}
+
+.section-margin-bottom {
+  margin-bottom: 16px;
+}
+
+.text-dark-gray {
+  color: $color-dark-gray;
+}
+
+.text-red {
+  color: $color-danger;
+}
+
+.text-green {
+  color: $color-success;
+}
+
+.text-gray {
+  color: $color-gray;
+}
+
+.text-white {
+  color: $color-white;
+}
+
+.bg-red {
+  background-color: $color-danger;
+}
+
+.bg-green {
+  background-color: $color-success;
+}

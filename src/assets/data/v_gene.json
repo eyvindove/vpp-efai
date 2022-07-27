@@ -1,0 +1,230 @@
+{
+    "item": "非黑色素瘤皮膚癌",
+    "relation": 1,
+    "risk_class": 2,
+    "risk_value": 0.0,
+    "risk_value_type": "-",
+    "table": {
+        "usr": {
+            "high": 3,
+            "low": 20,
+            "sum": 34,
+            "norm": 11
+        },
+        "avg": {
+            "high": 3,
+            "low": 20,
+            "sum": 34,
+            "norm": 11
+        }
+    },
+    "clinvar_table": {
+        "overall": {
+            "high": 0,
+            "mid": 0,
+            "total": 17
+        },
+        "item_dict": {
+            "ATR": {
+                "high": 0,
+                "mid": 0,
+                "total": 1,
+                "explain": "促進DNA受損後修復和重組，作為細胞週期檢查點，影響細胞凋亡，突變與癌症相關。",
+                "ref_url": "ClinVar",
+                "name": "ATR"
+            },
+            "BAP1": {
+                "high": 0,
+                "mid": 0,
+                "total": 11,
+                "explain": "一種去泛素化酶，抑癌基因，與BRCA1基因結合參與DNA修復，調節細胞週期，突變會造成癌症。",
+                "ref_url": "ClinVar",
+                "name": "BAP1"
+            },
+            "GALNT12": {
+                "high": 0,
+                "mid": 0,
+                "total": 1,
+                "explain": "參與細胞內蛋白醣基化反應，突變與癌症發生有關。",
+                "ref_url": "ClinVar",
+                "name": "GALNT12"
+            },
+            "RET": {
+                "high": 0,
+                "mid": 0,
+                "total": 4,
+                "explain": "原癌基因，受體酪胺酸激酶，調控細胞訊息傳遞，使細胞增生，遷移和分化，突變造成癌症。",
+                "ref_url": "ClinVar",
+                "name": "RET"
+            }
+        },
+        "item_list": [
+            {
+                "gene_info": {
+                    "high": 0,
+                    "mid": 0,
+                    "total": 11,
+                    "explain": "一種去泛素化酶，抑癌基因，與BRCA1基因結合參與DNA修復，調節細胞週期，突變會造成癌症",
+                    "ref_url": "ClinVar",
+                    "name": "BAP1",
+                    "clinvar_risk": "low",
+                    "clinvar_class": "正常"
+                }
+            },
+            {
+                "gene_info": {
+                    "high": 0,
+                    "mid": 0,
+                    "total": 4,
+                    "explain": "原癌基因，受體酪胺酸激酶，調控細胞訊息傳遞，使細胞增生，遷移和分化，突變造成癌症",
+                    "ref_url": "ClinVar",
+                    "name": "RET",
+                    "clinvar_risk": "low",
+                    "clinvar_class": "正常"
+                }
+            },
+            {
+                "gene_info": {
+                    "high": 0,
+                    "mid": 0,
+                    "total": 1,
+                    "explain": "促進DNA受損後修復和重組，作為細胞週期檢查點，影響細胞凋亡，突變與癌症相關",
+                    "ref_url": "ClinVar",
+                    "name": "ATR",
+                    "clinvar_risk": "low",
+                    "clinvar_class": "正常"
+                }
+            },
+            {
+                "gene_info": {
+                    "high": 0,
+                    "mid": 0,
+                    "total": 1,
+                    "explain": "參與細胞內蛋白醣基化反應，突變與癌症發生有關",
+                    "ref_url": "ClinVar",
+                    "name": "GALNT12",
+                    "clinvar_risk": "low",
+                    "clinvar_class": "正常"
+                }
+            }
+        ]
+    },
+    "gwas_table": {
+        "risk_level": 2,
+        "accum": 0.2209883115109271
+    },
+    "gene_list": [
+        {
+            "gene_name": "RALY",
+            "gene_explain": "RNA結合蛋白，進行mRNA剪接，進行膽固醇合成，異常會促使癌細胞轉移",
+            "high": "GG",
+            "general": "GA",
+            "low": "AA",
+            "risk_class": 3,
+            "risk": 1.27,
+            "risk_value_type": "or_value",
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/29739929"
+        },
+        {
+            "gene_name": "KRT5",
+            "gene_explain": "II型細胞角蛋白一種，參與上皮組織分化，與角膜結構形成有關",
+            "high": "CC",
+            "general": "CT",
+            "low": "TT",
+            "risk_class": 3,
+            "risk": 1.25,
+            "risk_value_type": "or_value",
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/29739929"
+        },
+        {
+            "gene_name": "ALS2CR12",
+            "gene_explain": "影響細胞生長過程，參與肌肉發育。此基因檢測位點與非黑色素瘤皮膚癌有關",
+            "high": "GG",
+            "general": "GA",
+            "low": "AA",
+            "risk_class": 3,
+            "risk": 1.16,
+            "risk_value_type": "or_value",
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/29739929"
+        },
+        {
+            "gene_name": "PCSEAT",
+            "gene_explain": "在癌細胞表現的基因",
+            "high": "AA",
+            "general": "AT",
+            "low": "TT",
+            "risk_class": 3,
+            "risk": 0.906,
+            "risk_value_type": "or_value",
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/29739929"
+        },
+        {
+            "gene_name": "BACH2",
+            "gene_explain": "為細胞訊息傳遞基因在T和B細胞(免疫細胞)中，與自體免疫和癌症有關",
+            "high": "GG",
+            "general": "GA",
+            "low": "AA",
+            "risk_class": 3,
+            "risk": 0.883,
+            "risk_value_type": "or_value",
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/29739929"
+        },
+        {
+            "gene_name": "CPVL",
+            "gene_explain": "蛋白酶，在溶小體中進行蛋白分解，參與抗原形成，影響免疫反應，與癌症有關",
+            "high": "GG",
+            "general": "GA",
+            "low": "AA",
+            "risk_class": 1,
+            "risk": null,
+            "risk_value_type": null,
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/29739929"
+        },
+        {
+            "gene_name": "C2CD6",
+            "gene_explain": "參與蛋白質運輸，影響細胞訊號傳遞，與癌症有關",
+            "high": "GG",
+            "general": "GT",
+            "low": "TT",
+            "risk_class": 1,
+            "risk": null,
+            "risk_value_type": null,
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/29739929"
+        },
+        {
+            "gene_name": "HLA-DQB1",
+            "gene_explain": "此基因位於免疫基因群(MHC)中，功能為抗原呈現，與體內免疫反應和癌症有關",
+            "high": "CC",
+            "general": "CT",
+            "low": "TT",
+            "risk_class": 1,
+            "risk": null,
+            "risk_value_type": null,
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/29739929"
+        },
+        {
+            "gene_name": "TP53",
+            "gene_explain": "抑癌基因進行細胞週期調控，參與DNA受損後反應和啟動修復，使細胞凋亡並抑制生長，突變容易導致癌症",
+            "high": "GG",
+            "general": "GT",
+            "low": "TT",
+            "risk_class": 1,
+            "risk": null,
+            "risk_value_type": null,
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/29739929"
+        },
+        {
+            "gene_name": "IRF4",
+            "gene_explain": "干擾素調節因子，負調節Toll受體，活化免疫系統，使免疫細胞分化，參與病毒感染等免疫反應",
+            "high": "TT",
+            "general": "TC",
+            "low": "CC",
+            "risk_class": 1,
+            "risk": null,
+            "risk_value_type": null,
+            "ref_url": "www.ncbi.nlm.nih.gov/pubmed/23548203"
+        }
+    ],
+    "item_en": false,
+    "item_word_count": 8
+}

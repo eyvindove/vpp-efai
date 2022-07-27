@@ -1,0 +1,50 @@
+[
+    {
+        "gene_info": {
+            "high": 0,
+            "mid": 0,
+            "total": 11,
+            "explain": "一種去泛素化酶，抑癌基因，與BRCA1基因結合參與DNA修復，調節細胞週期，突變會造成癌症",
+            "ref_url": "ClinVar",
+            "name": "BAP1",
+            "clinvar_risk": "low",
+            "clinvar_class": "正常"
+        }
+    },
+    {
+        "gene_info": {
+            "high": 0,
+            "mid": 0,
+            "total": 4,
+            "explain": "原癌基因，受體酪胺酸激酶，調控細胞訊息傳遞，使細胞增生，遷移和分化，突變造成癌症",
+            "ref_url": "ClinVar",
+            "name": "RET",
+            "clinvar_risk": "low",
+            "clinvar_class": "正常"
+        }
+    },
+    {
+        "gene_info": {
+            "high": 0,
+            "mid": 0,
+            "total": 1,
+            "explain": "促進DNA受損後修復和重組，作為細胞週期檢查點，影響細胞凋亡，突變與癌症相關",
+            "ref_url": "ClinVar",
+            "name": "ATR",
+            "clinvar_risk": "low",
+            "clinvar_class": "正常"
+        }
+    },
+    {
+        "gene_info": {
+            "high": 0,
+            "mid": 0,
+            "total": 1,
+            "explain": "參與細胞內蛋白醣基化反應，突變與癌症發生有關",
+            "ref_url": "ClinVar",
+            "name": "GALNT12",
+            "clinvar_risk": "low",
+            "clinvar_class": "正常"
+        }
+    }
+]
